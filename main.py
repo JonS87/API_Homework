@@ -1,4 +1,5 @@
 # Homowork 1
+print('Homowork 1')
 import requests
 from pprint import pprint
 
@@ -14,12 +15,16 @@ sorted_rooms = sorted(heroes.items(), key=lambda item: -item[1])
 pprint(f'Самый умный герой - {sorted_rooms[0][0]}')
 
 #Homework 2
+print()
+print('Homowork 2')
 from tok import TOKEN
 from ya_disk import YandexDisk
 yd = YandexDisk(token=TOKEN)
-#yd.upload_file_to_disk("Netology homework/test.txt", "test.txt")
+yd.upload_file_to_disk("Netology homework/test.txt", "test.txt")
 
 #Homework 3
+print()
+print('Homowork 3')
 import time
 import datetime
 
